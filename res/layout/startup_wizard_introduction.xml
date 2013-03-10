@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/background_layout" >
+
+    <include
+        android:id="@+id/swi_header"
+        layout="@layout/startup_wizard_header" />
+
+    <ScrollView
+        android:id="@+id/swi_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/swi_radios"
+        android:layout_below="@id/swi_header" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5sp"
+            android:text="@string/startup_wizard_introdcution_text"
+            android:textColor="@color/text"
+            android:textSize="14sp" />
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/swi_radios"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/swi_buttonbar" >
+
+        <TextView
+            android:id="@+id/swi_header_radios"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dip"
+            android:text="@string/startup_wizard_introdcution_header_radios"
+            android:textColor="@color/text"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:id="@+id/swi_radiogroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/swi_header_radios"
+            android:paddingLeft="10dip" >
+
+            <RadioButton
+                android:id="@+id/swi_radio_easy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/startup_wizard_introduction_easy"
+                android:textColor="@color/text" />
+
+            <RadioButton
+                android:id="@+id/swi_radio_expert"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/startup_wizard_introduction_expert"
+                android:textColor="@color/text" />
+
+            <RadioButton
+                android:id="@+id/swi_radio_qrcode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/startup_wizard_introduction_qrcode"
+                android:textColor="@color/text" />
+
+
+        </RadioGroup>
+        
+            <TextView
+                android:id="@+id/swi_qrcode_help"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/startup_wizard_introduction_qrcode_help"
+                android:textColor="#0000ff"
+                android:textSize="15sp"
+                android:textStyle="bold" 
+                android:layout_below="@id/swi_radiogroup"
+                android:layout_margin="10dip"
+                android:paddingBottom="10dip"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@id/swi_buttonbar"
+        style="@style/startup_wizard_button_bar" >
+
+        <Button
+            android:id="@+id/startup_wizard_introduction_back_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/startup_wizard_introduction_back_button" />
+
+        <Button
+            android:id="@+id/startup_wizard_introduction_next_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/startup_wizard_introduction_next_button" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  
+  <item
+  android:id="@+id/edit_login_set"
+  android:title="@string/menu_edit_login_set" />
+  
+  <item
+  android:id="@+id/remove_login_set"
+  android:title="@string/menu_remove_login_set" />
+  
+  <item
+  android:id="@+id/menu_resync_masterdata"
+  android:title="@string/menu_resync_masterdata" />
+</menu>

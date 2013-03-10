@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:id="@+id/welcome_main_layout"
+	style="@style/background_layout">
+
+    <include layout="@layout/startup_wizard_header" android:id="@+id/welcome_title"/>
+
+	<ListView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:id="@+id/loginList"
+		android:layout_below="@id/welcome_title" android:cacheColorHint="#00000000" 
+		android:background="@color/element_background" />
+		
+	<ScrollView android:id="@+id/login_set_list_empty_view"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/welcome_title"
+		android:layout_marginBottom="22dip"
+		android:visibility="invisible">
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="14sp"
+			android:paddingLeft="5sp"
+			android:textColor="@color/text"
+			android:text="@string/login_sets_info" />
+		</ScrollView>
+		
+	<include layout="@layout/progress_bar"/>
+
+
+</RelativeLayout>

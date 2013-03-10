@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="settings_autoselect_type_class">autoselect_type_class</string>
+    <string name="settings_autoselect_type_teacher">autoselect_type_teacher</string>
+    <string name="settings_autoselect_type_room">autoselect_type_room</string>
+    <string name="settings_autoselect_type_subject">autoselect_type_subject</string>
+</resources>

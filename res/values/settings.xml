@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>	
+	<!-- Strings on UI -->
+    <string name="settings_login_header">Login options</string>
+    <string name="settings_login_autologin_title">Auto login</string>
+    <string name="settings_login_autologin_summary">Do you want to login automatically?</string>
+    <string name="settings_login_autologin_set_title">Login set</string>
+    <string name="settings_login_autologin_set_summary">Select login set for auto login</string>
+    <string name="settings_login_autologin_set_dialog_title">Login set</string>
+        
+    <string name="settings_display_header">Display options</string>
+    <string name="settings_display_show_saturday_title">Display Saturday</string>
+    <string name="settings_display_show_saturday_summary">Display Saturday in timetable</string>
+    <string name="settings_display_show_zeroth_lesson_title">Display zeroth lesson</string>
+    <string name="settings_display_show_zeroth_lesson_summary">Display zeroth lesson in timetable</string>
+    <string name="settings_display_highlight_current_lesson_title">Highlight current lesson</string>
+    <string name="settings_display_highlight_current_lesson_summary">Highlight current lesson in timetable</string>
+    
+    <string name="settings_caching_header">Timetable caching options</string>
+    <string name="settings_caching_caching_enabled_title">Enable caching</string>
+    <string name="settings_caching_caching_enabled_summary">Enable caching of timetable</string>
+    <string name="settings_caching_life_time_in_hours_title">Cache lifetime</string>
+    <string name="settings_caching_life_time_in_hours_summary">Time (in hours) timetables should be buffered, before being refreshed</string>
+    <string name="settings_caching_life_time_in_hours_dialog_title">Cache lifetime (in hours)</string>
+</resources>

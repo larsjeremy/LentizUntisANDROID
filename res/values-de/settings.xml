@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>	
+	<!-- Strings on UI -->
+    <string name="settings_login_header">Login Optionen</string>
+    <string name="settings_login_autologin_title">Auto-Login</string>
+    <string name="settings_login_autologin_summary">Wollen Sie sich automatisch einloggen?</string>
+    <string name="settings_login_autologin_set_title">Login Set</string>
+    <string name="settings_login_autologin_set_summary">Auswahl des Login Sets für den Auto-Login</string>
+    <string name="settings_login_autologin_set_dialog_title">Login Set</string>
+    
+    <string name="settings_display_header">Anzeige Optionen</string>
+    <string name="settings_display_show_saturday_title">Samstag anzeigen</string>
+    <string name="settings_display_show_saturday_summary">Zeige Samstag im Stundenplan an</string>
+    <string name="settings_display_show_zeroth_lesson_title">Nullte Stunde anzeigen</string>
+    <string name="settings_display_show_zeroth_lesson_summary">Zeige nullte Stunde im Stundenplan an</string>
+    <string name="settings_display_highlight_current_lesson_title">Aktuelle Stunde markieren</string>
+    <string name="settings_display_highlight_current_lesson_summary">Markiere aktuelle Stunde im Stundenplan</string>
+    
+    <string name="settings_caching_header">Stundenplan-Caching</string>
+    <string name="settings_caching_caching_enabled_title">Cache verwenden</string>
+    <string name="settings_caching_caching_enabled_summary">Verwende den Stundenplan-Cache</string>
+    <string name="settings_caching_life_time_in_hours_title">Cache-Lebensdauer</string>
+    <string name="settings_caching_life_time_in_hours_summary">Zeit (in Stunden), die Stundenpläne zwischengespeichert werden soll</string>
+    <string name="settings_caching_life_time_in_hours_dialog_title">Cache-Lebensdauer (in Stunden)</string>
+</resources>

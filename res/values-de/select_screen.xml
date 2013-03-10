@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="view_type_list_missing">Eine oder mehrere Listen fehlen. Fortsetzen nicht möglich.</string>
+    
+    <string name="selectscreen_class">Klassen</string>
+    <string name="selectscreen_teacher">Lehrer</string>
+    <string name="selectscreen_rooms">Räume</string>
+    <string name="selectscreen_subjects">Fächer</string>
+    
+    <string name="selectscreen_search">Suche Stammdaten</string>
+    <string name="selectscreen_search_fail">Nichts gefunden</string>
+    
+    <!-- Menu -->
+    <string name="selectscreen_menu_search_title">Suche</string>
+    <string name="selectscreen_menu_autoselect_title">Auto-Auswahl</string>
+</resources>

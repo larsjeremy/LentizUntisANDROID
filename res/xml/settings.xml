@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+            android:title="@string/settings_login_header">
+
+        <CheckBoxPreference
+                android:key="@string/settings_key_autologin"
+                android:title="@string/settings_login_autologin_title"
+                android:summary="@string/settings_login_autologin_summary" />
+                
+        <ListPreference
+                android:key="@string/settings_key_autologin_set"
+                android:title="@string/settings_login_autologin_set_title"
+                android:summary="@string/settings_login_autologin_set_summary"
+                android:dialogTitle="@string/settings_login_autologin_set_dialog_title"
+                android:dependency="@string/settings_key_autologin" />
+
+    </PreferenceCategory>
+    
+    <PreferenceCategory
+            android:title="@string/settings_display_header">
+
+		<CheckBoxPreference
+                android:key="@string/settings_key_show_saturday"
+                android:title="@string/settings_display_show_saturday_title"
+                android:summary="@string/settings_display_show_saturday_summary" />
+                
+        <CheckBoxPreference
+                android:key="@string/settings_key_show_zeroth_lesson"
+                android:title="@string/settings_display_show_zeroth_lesson_title"
+                android:summary="@string/settings_display_show_zeroth_lesson_summary" />
+                
+        <CheckBoxPreference
+                android:key="@string/settings_key_highlight_current_lesson"
+                android:title="@string/settings_display_highlight_current_lesson_title"
+                android:summary="@string/settings_display_highlight_current_lesson_summary" />
+                
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/settings_caching_header">
+        
+        <CheckBoxPreference
+            android:key="@string/settings_key_caching_enabled"
+            android:title="@string/settings_caching_caching_enabled_title"
+            android:summary="@string/settings_caching_caching_enabled_summary"
+            android:defaultValue="true" />
+                
+        <edu.htl3r.schoolplanner.backend.preferences.ValidatedEditTextPreference
+            android:key="@string/settings_key_caching_life_time_in_hours"
+            android:title="@string/settings_caching_life_time_in_hours_title"
+            android:summary="@string/settings_caching_life_time_in_hours_summary"
+            android:dialogTitle="@string/settings_caching_life_time_in_hours_dialog_title"
+            android:dependency="@string/settings_key_caching_enabled"
+            android:defaultValue="1" />
+                
+        </PreferenceCategory>
+
+</PreferenceScreen>

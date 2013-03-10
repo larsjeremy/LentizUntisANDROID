@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="background">#F7F7F7</color>
+	<color name="header_background">#193403</color>
+	<color name="element_background">#EFEBEF</color>
+	<color name="disabled_element_background">#BCBCBC</color>
+	
+	<color name="delimiter">#BCBCBC</color>
+	
+	<color name="header_text">#FFFFFF</color>
+	<color name="text">#000000</color>
+	
+	<color name="background_stundenplan">#FFFFFF</color>
+	
+	
+	<color name="month_overlay_today">#FFA500</color>
+	<color name="month_overlay_day">#FFFFFF</color>
+	<color name="month_overlay_holiday">#00FF00</color>
+	
+	<color name="month_overlay_legend">#4a494a</color>
+	<color name="month_overlay_on_touch">#2955ce</color>
+</resources>

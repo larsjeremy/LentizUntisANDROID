@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="gui_timegrid_width">40dip</dimen>
+    <dimen name="gui_timegrid_padding_right">5dip</dimen>
+    <dimen name="gui_timegrid_padding_top">10dip</dimen>
+    <dimen name="gui_timegrid_padding_line2_line3">12dip</dimen>
+    
+    
+    
+    <dimen name="gui_header_height">45dip</dimen>
+    <dimen name="gui_header_paddting_top">5dip</dimen>
+    <dimen name="gui_header_line1_size">18sp</dimen>
+    <dimen name="gui_header_line2_size">10sp</dimen>
+    <dimen name="gui_header_line1_line1_padding">22dip</dimen>
+    
+    
+    <dimen name="gui_lesson_line1_size">15sp</dimen>
+    <dimen name="gui_lesson_line2_size">10sp</dimen>
+    <dimen name="gui_lesson_line1_line1_padding">17dip</dimen>
+    <dimen name="gui_lesson_padding_top">17dip</dimen>
+    <dimen name="gui_lesson_padding_left">5dip</dimen>
+    
+    
+    <dimen name="gui_overlay_lesson_width">200dip</dimen>
+    <dimen name="gui_overlay_lesson_height">215dip</dimen>
+    
+    <dimen name="gui_overlay_text_size_big">20sp</dimen>
+    <dimen name="gui_overlay_text_size_medium">15sp</dimen>
+    <dimen name="gui_overlay_text_size_small">10sp</dimen>
+    
+    <dimen name="gui_overlay_margin_top">7dip</dimen>
+    <dimen name="gui_overlay_line_space">30dip</dimen>
+    
+    
+    <dimen name="gui_overlay_footer_margin_left">15dip</dimen>
+    <dimen name="gui_overlay_footer_margin_bottom">20dip</dimen>
+
+	<dimen name="gui_overlay_month_marign_top">20dip</dimen>
+	<dimen name="gui_overlay_month_text_padding_top">8dip</dimen>
+	<dimen name="gui_overlay_month_text_size">18sp</dimen>
+	
+	<dimen name="gui_stroke_width_1">0.66dip</dimen>
+	<dimen name="gui_stroke_width_2">1.33dip</dimen>
+	<dimen name="gui_stroke_width_3">2dip</dimen>
+	<dimen name="gui_stroke_width_4">2.66dip</dimen>
+	<dimen name="gui_stroke_width_5">3.33dip</dimen>
+	<dimen name="gui_stroke_width_6">4dip</dimen>
+	<dimen name="gui_stroke_width_7">4.66dip</dimen>
+	<dimen name="gui_stroke_width_8">5.33dip</dimen>
+	<dimen name="gui_stroke_width_9">6dip</dimen>
+	<dimen name="gui_stroke_width_10">6.66dip</dimen>
+	
+</resources>
